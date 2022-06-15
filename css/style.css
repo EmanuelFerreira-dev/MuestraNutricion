@@ -415,3 +415,50 @@ h6,
 .copyright a:hover {
     color: var(--light);
 }
+
+
+@media(max-width:768px){
+    .box-turn{
+        text-align: center !important;
+    }
+}
+
+@media(max-width: 425px){
+    .fa-calendar-alt{
+        font-size: 4rem !important;
+    }
+}
+@media(max-width: 375px){
+    .fa-calendar-alt{
+        font-size: 3rem !important;
+    }
+}
+
+@media(max-width:425px){
+    .recive-info{
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:375px){
+    .title-primary{
+        font-size: 24px;
+    }
+}
+@media(max-width:320px){
+    .title-primary{
+        font-size: 19px;
+    }
+}
+
+@media(max-width:320px){
+    .text-coordinar-turno{
+        font-size: 26px !important;
+    }
+}
+
+@media(max-width:375px){
+    .text-personalizada{
+        font-size: 20px !important;
+    }
+}
